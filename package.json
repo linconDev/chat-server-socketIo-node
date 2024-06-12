@@ -1,9 +1,12 @@
 {
-  "name": "simplesti-realtime-communication-stream-api-node",
+  "name": "chat-server-socketio-node",
   "version": "0.1.0",
-  "description": "Api de Comunicação em tempo real com socke.io",
+  "description": "Real-time Communication API with socke.io",
   "main": "index.js",
-  "author": "Lincon Venicios Gallo dos Santos",
+  "author": {
+    "name": "Lincon Venicios Gallo dos Santos",
+    "email": "lincon.santos@contact-webtechcompany.com.br"
+  },
   "license": "MIT",
   "private": true,
   "devDependencies": {
@@ -14,6 +17,7 @@
   },
   "dependencies": {
     "@types/socket.io": "^3.0.2",
+    "dotenv": "^16.4.5",
     "socket.io": "^4.7.5"
   },
   "scripts": {
