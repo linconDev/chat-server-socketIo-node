@@ -1,3 +1,7 @@
+[06/12/2024] - [0.20.0] - Updated Packages:
+
+1. The server is taking shape in terms of exchanging private messages between users, with the inclusion of individual rooms, which use the ID of the user's connection to the socket.
+
 [06/12/2024] - [0.15.0] - Updated Packages:
 
 1. FEATURE: Message reception channels were included, in addition to improvements in documentation
